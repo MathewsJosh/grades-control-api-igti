@@ -1,0 +1,22 @@
+{
+  "name": "grades-control-api-igti",
+  "version": "1.0.0",
+  "description": "Desenvolver uma API chamada “grades-control-api” para controlar notas de alunos em matérias de um curso. Exercitando os conceitos trabalhados no módulo para criação de uma API, criando endpoints utilizando Node.js e Express.",
+  "main": "idex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathewsJosh/grades-control-api-igti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathewsJosh/grades-control-api-igti/issues"
+  },
+  "homepage": "https://github.com/MathewsJosh/grades-control-api-igti#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
