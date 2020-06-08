@@ -19,4 +19,6 @@ Uma grade deve possuir os campos abaixo:
 
 O arquivo grades.json será previamente fornecido com alguns registros inseridos, seus endpoints devem trabalhar considerando a existência deles, não devendo criar um arquivo limpo para utilização. A estrutura do arquivo é a seguinte:
 
-![alt text](https://igti.instructure.com/courses/2934/files/193784/preview)
+<p align="center">
+  <img src=".\img\structure-example.png" width="350" title="hover text">
+</p>
