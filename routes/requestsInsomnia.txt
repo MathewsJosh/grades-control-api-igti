@@ -1,0 +1,67 @@
+consultgrade
+get
+http://localhost:3000/50
+
+
+
+_______________________________________________________________________________________________
+consultgrade
+post
+http://localhost:3000/consultgrade
+
+{
+	"student": "Rodrigo Branas",
+	"subject": "01 - JavaScript"
+}    
+
+_______________________________________________________________________________________________
+averagegrade
+post
+http://localhost:3000/averagegrade
+
+{
+	"subject": "01 - JavaScript",
+	"type": "Desafio"
+}    
+
+_______________________________________________________________________________________________
+better3grades
+post
+http://localhost:3000/better3grades
+
+{
+	"subject": "01 - JavaScript",
+	"type": "Fórum"
+}    
+
+_______________________________________________________________________________________________
+deletegrade
+delete 
+http://localhost:3000/51
+
+
+
+_______________________________________________________________________________________________
+updatestudent
+put
+http://localhost:3000/updatestudent
+
+{
+	"id":50,
+	"student": "Mathews",
+	"subject": "01 - JavaScript",
+	"type": "Fórum",
+	"value": 15
+}
+
+_______________________________________________________________________________________________
+cria-grade
+post
+http://localhost:3000/creategrade
+
+{
+	"student": "mathews",
+	"subject": "01 - JavaScript",
+	"type": "Fórum",
+	"value": 15
+}
